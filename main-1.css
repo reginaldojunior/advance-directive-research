@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  font-family:'Cabin', sans-serif;
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* +Header */
+
+header {
+  background-color: rgb(0,33,70);
+  color: white;
+  height: 448px;
+  padding: 64px 64px 0 64px;
+  background-image: url(../../assets/images/Header-Img.png);
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header h1 span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+  .subhead a:hover {
+    color: rgb(0,33,70);
+    text-decoration: none;
+  
+  }.subhead a {
+    color: white;
+    text-decoration: none;
+  }
+
+header h3 {
+  font-size: 18px;
+}
+
+header h3.subhead {
+  margin-bottom: 120px;
+}
+
+/* -Header */
+
+/* +Nav */
+
+nav {
+  margin: -64px auto 0 auto;
+  width: 840px;
+}
+
+nav a {
+  display: block;
+  float: left;
+  text-align: center;
+
+  padding: 17px 0;
+  width: 280px;
+
+  background: linear-gradient(#ccc, #b1b1b1 90%);
+
+  color: rgb(0,33,70);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+  background: #ccc;
+}
+
+/* -Nav */
+
+/* +Content */
+
+.content {
+  background-color: rgb(204,204,204);
+  height: 992px;
+  color: white;
+  padding-top: 64px;
+  clear: both;
+}
+
+#forms {
+  margin-left: auto;
+  margin-right: auto;
+  width: 823.87px;
+  height: 240px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.form-names li {
+  display: inline-block;
+  height: 168px;
+  width: 93.339px;
+  background-color: black;
+  margin-right: 27px;
+  font-size: 18px;
+  padding-left: 32px;
+  padding-top: 72px;
+  padding-right: 60px;
+  text-align: left;
+  white-space: normal;
+  vertical-align: top;
+  background-size: cover;
+  position: relative;
+}
+
+.form-names li .layer a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 168px;
+  width: 93.339px;
+  background: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  padding-left: 32px;
+  padding-top: 72px;
+  padding-right: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.form-names li .layer a:hover{
+  background: rgba(0, 0, 0, 0.45);
+
+}
+
+#form-1 {
+  background-image: url(../../assets/images/cha-cover.png);
+}
+#form-2 {
+  background-image: url(../../assets/images/cma-cover.png);
+}
+#form-3 {
+  background-image: url(../../assets/images/caring-cover.png);
+}
+#form-4 {
+  background-image: url(../../assets/images/cedars-cover.png);
+}
+#form-5 {
+  background-image: url(../../assets/images/cccc-cover.png);
+}
+#form-6 {
+  background-image: url(../../assets/images/easy-cover.png);
+}
+#form-7 {
+  background-image: url(../../assets/images/knor-cover.png);
+}
+#form-8 {
+  background-image: url(../../assets/images/kso-cover.png);
+}
+#form-9 {
+  background-image: url(../../assets/images/pih-cover.png);
+}
+#form-10 {
+  background-image: url(../../assets/images/polst-cover.png);
+}
+#form-11 {
+  background-image: url(../../assets/images/probate-cover.png);
+}
+#form-12 {
+  background-image: url(../../assets/images/sharp-cover.png);
+}
+#form-13 {
+  background-image: url(../../assets/images/thinking-cover.png);
+}
+#form-14 {
+  background-image: url(../../assets/images/ucsf-cover.png);
+}
+
+.form-names li:last-of-type {
+  margin-right: 0px;
+}
+
+.info {
+  width: 896px;
+  padding: 32px;
+  background-color: white;
+  margin: 32px auto;
+
+}
+.info .info-title {
+    background-color: rgb(0,33,70);
+    color: white;
+    font-size: 24px;
+    height: 64px;
+    padding: 32px 32px 32px 32px;
+    width: 824px;
+    border-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: black;
+}
+
+.info .info-columns {
+    width: 824px;
+    color: black;
+    padding: 32px;
+    border-width: 1px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin: auto;
+
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.info-columns li {
+    width: 272px;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+.info-content {
+  margin-top: 16px;
+}
+
+.form-image {
+  width: 221px;
+  height: 214.721px;
+  border: 1px solid black;
+  margin-top: 41px;
+  background-image: url(../../assets/images/cha-cover.png);
+  background-size: cover;
+  color: black;
+  font-size: 144px;
+  text-align: center;
+  padding-top: 71px;
+}
+
+.form-image a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-image a:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.contact-info p:last-of-type {
+  margin-bottom: 0;
+}
+
+.map {
+  width: 221px;
+  height: 158px;
+  border: 1px solid black;
+  margin-top: 68px;
+}
+
+.specs-list {
+  width: 242px;
+  height: 280px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: auto;
+  background-color: rgb(230, 233, 237);
+  color: black;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.specs-list div {
+  margin-bottom: 16px;
+}
+
+.specs-list div:last-of-type {
+  margin-bottom: 0;
+}
+
+.specs-list div h5 {
+  font-weight: bold;
+
+}
+/* -Content */
+
+
